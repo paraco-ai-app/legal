@@ -38,7 +38,7 @@
     <p class="date">Son güncellenme: 13 Nisan 2026</p>
 
     <h2>1. Genel Bakış</h2>
-    <p>Bu Gizlilik Politikası, Kılınç Labs tarafından geliştirilen ve yayımlanan Paraco AI uygulamasının ("Uygulama", paket kimliği: com.paraco.app) kişisel verilerinizi nasıl topladığını, işlediğini, sakladığını ve koruduğunu açıklar.</p>
+    <p>Bu Gizlilik Politikası, Kılınç Labs tarafından geliştirilen ve yayımlanan Paraco AI uygulamasının ("Uygulama") kişisel verilerinizi nasıl topladığını, işlediğini, sakladığını ve koruduğunu açıklar.</p>
     <p>Uygulamayı kullanmaya devam etmeniz, bu politikayı okuduğunuzu ve kabul ettiğinizi gösterir. Politikayı kabul etmiyorsanız lütfen uygulamayı kullanmayınız.</p>
     <p>Paraco AI, 18 yaş ve üzeri Türk kullanıcılara yönelik yapay zeka destekli kişisel finans koçu uygulamasıdır. Uygulama; doğal dil ile harcama kaydı, otomatik yapay zeka kategorilendirmesi ve kişiselleştirilmiş finansal tavsiye hizmetleri sunmaktadır.</p>
 
@@ -46,7 +46,6 @@
     <ul>
       <li><strong>Veri Sorumlusu:</strong> Kılınç Labs</li>
       <li><strong>Uygulama Adı:</strong> Paraco AI</li>
-      <li><strong>Paket Kimliği:</strong> com.paraco.app</li>
       <li><strong>İletişim E-postası:</strong> <a href="mailto:paraco.ai@proton.me">paraco.ai@proton.me</a></li>
     </ul>
 
@@ -98,44 +97,45 @@
     </ul>
 
     <h2>6. Üçüncü Taraf Hizmetler</h2>
+    <p>Uygulama hizmetlerinin sunulması amacıyla aşağıdaki üçüncü taraf sağlayıcılardan yararlanılmaktadır. Bu sağlayıcılar, yalnızca hizmetin gerektirdiği ölçüde veriye erişebilir ve kendi gizlilik politikalarına tabidir.</p>
+
     <h3>6.1 Supabase</h3>
-    <p>Veritabanı, kimlik doğrulama, sunucu taraflı işlevler ve dosya depolama için kullanılmaktadır. Tüm kullanıcı verileri Supabase altyapısında saklanmaktadır.</p>
+    <p>Altyapı ve veri depolama sağlayıcısı. Tüm kullanıcı verileri Supabase altyapısında tutulmaktadır.</p>
     <ul>
       <li>Sunucu konumu: Amerika Birleşik Devletleri</li>
       <li>Gizlilik politikası: <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></li>
     </ul>
 
-    <h3>6.2 Anthropic Claude API</h3>
-    <p>Yapay zeka destekli harcama kategorilendirmesi, koç sohbeti ve finansal içgörü üretimi için kullanılmaktadır.</p>
-    <p>Anthropic'e iletilen veriler: harcama metni ve tutarları, gelir özeti ve kategori dağılımları, sabit giderler, bütçe limitleri, hedefler, son 30 sohbet mesajı. Ham e-posta veya ad iletilmez.</p>
+    <h3>6.2 Anthropic</h3>
+    <p>Yapay zeka hizmet sağlayıcısı. Uygulama özellikleri kapsamında kullanıcıya ait finansal özet bilgiler (kimlik içermeyen) ve sohbet mesajları işlenmektedir.</p>
     <ul>
       <li>Sunucu konumu: Amerika Birleşik Devletleri</li>
       <li>Gizlilik politikası: <a href="https://anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
     </ul>
 
-    <h3>6.3 OpenAI API (Metin-Ses Dönüşümü)</h3>
-    <p>Sesli koç mesajları, aylık roast ses raporları ve haftalık sesli özetlerin üretimi için OpenAI'ın metin-ses (TTS) hizmeti kullanılmaktadır. OpenAI'a yalnızca yapay zeka tarafından üretilmiş konuşma metinleri iletilmekte; ham finansal veri veya kimlik bilgisi gönderilmemektedir.</p>
+    <h3>6.3 OpenAI</h3>
+    <p>Ses sentezi hizmet sağlayıcısı. Yalnızca uygulama tarafından üretilmiş metin içerikleri iletilmektedir; ham kullanıcı verisi gönderilmez.</p>
     <ul>
       <li>Sunucu konumu: Amerika Birleşik Devletleri</li>
       <li>Gizlilik politikası: <a href="https://openai.com/policies/privacy-policy" target="_blank">openai.com/policies/privacy-policy</a></li>
     </ul>
 
     <h3>6.4 RevenueCat</h3>
-    <p>Uygulama içi satın alma ve abonelik yönetimi için RevenueCat platformu kullanılmaktadır. RevenueCat; kullanıcı kimliği, abonelik durumu ve App Store / Google Play satın alma bilgilerini işlemektedir.</p>
+    <p>Abonelik ve satın alma yönetimi sağlayıcısı. Kullanıcı kimliği ve App Store / Google Play satın alma bilgileri işlenmektedir.</p>
     <ul>
       <li>Sunucu konumu: Amerika Birleşik Devletleri</li>
       <li>Gizlilik politikası: <a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></li>
     </ul>
 
-    <h3>6.5 Apple Sign-In ve Google Sign-In</h3>
-    <p>İsteğe bağlı OAuth kimlik doğrulama yöntemi olarak Apple ile Giriş ve Google ile Giriş desteklenmektedir. Her iki sağlayıcının kendi gizlilik standartları geçerlidir.</p>
+    <h3>6.5 Apple ve Google (Kimlik Doğrulama)</h3>
+    <p>İsteğe bağlı OAuth oturum açma sağlayıcıları. Her iki sağlayıcının kendi gizlilik standartları geçerlidir.</p>
     <ul>
       <li>Apple: <a href="https://www.apple.com/legal/privacy" target="_blank">apple.com/legal/privacy</a></li>
       <li>Google: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
     </ul>
 
     <h3>6.6 Expo / EAS</h3>
-    <p>Uygulama derleme, dağıtım ve güncelleme altyapısı için kullanılmaktadır.</p>
+    <p>Uygulama dağıtım altyapısı sağlayıcısı.</p>
     <ul>
       <li>Gizlilik politikası: <a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a></li>
     </ul>
@@ -166,8 +166,6 @@
       <li>Aktivite seri kayıtları</li>
       <li>Tüm ses dosyaları (Supabase Storage)</li>
     </ul>
-    <div class="warning">Veri dışa aktarma (export) özelliği şu an mevcut değildir. Gelecekteki bir güncellemeyle eklenmesi planlanmaktadır.</div>
-
     <h2>10. Bildirimler ve İzinler</h2>
     <h3>10.1 Push Bildirimleri</h3>
     <p>Bildirim izni verilmesi halinde aşağıdaki dört bağımsız bildirim türü aktif olur; her biri ayrı ayrı açılıp kapatılabilir:</p>
@@ -208,7 +206,7 @@
     <p>Kılınç Labs, bu Gizlilik Politikası'nı önceden bildirimde bulunmaksızın güncelleme hakkını saklı tutar. Önemli değişiklikler, uygulama içi bildirim veya kayıtlı e-posta adresi aracılığıyla duyurulur. Değişiklikten sonra uygulamayı kullanmaya devam etmeniz, güncel politikayı kabul ettiğiniz anlamına gelir.</p>
 
     <div class="footer">
-      <p><strong>Kılınç Labs</strong> — Paraco AI (com.paraco.app)</p>
+      <p><strong>Kılınç Labs</strong> — Paraco AI</p>
       <p>İletişim: <a href="mailto:paraco.ai@proton.me">paraco.ai@proton.me</a></p>
       <p>Bu belge 13 Nisan 2026 tarihinde oluşturulmuştur.</p>
     </div>
