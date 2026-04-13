@@ -21,15 +21,20 @@
     a:hover { text-decoration: underline; }
     .warning { background: #fff8f0; border-left: 3px solid #e8823c; padding: 10px 14px; border-radius: 4px; font-size: 13px; color: #7a4a20; margin: 12px 0; }
     .footer { margin-top: 60px; padding-top: 24px; border-top: 1px solid #e8e8e8; font-size: 13px; color: #999; }
-    .nav { background: #fff; border-bottom: 1px solid #e8e8e8; padding: 12px 24px; font-size: 13px; }
-    .nav a { color: #1d9e75; margin-right: 16px; }
+    .nav { background: #fff; border-bottom: 1px solid #e8e8e8; padding: 12px 24px; font-size: 13px; display: flex; align-items: center; justify-content: space-between; }
+    .nav-links a { color: #1d9e75; margin-right: 16px; }
+    .lang-btn { background: none; border: 1px solid #e0e0e0; border-radius: 6px; padding: 4px 12px; font-size: 12px; font-weight: 600; cursor: pointer; color: #555; text-decoration: none; transition: all .15s; }
+    .lang-btn:hover { border-color: #1d9e75; color: #1d9e75; }
   </style>
 </head>
 <body>
   <div class="nav">
-    <a href="index.html">Ana Sayfa</a>
-    <a href="privacy.html">Gizlilik Politikası</a>
-    <a href="terms.html">Kullanım Koşulları</a>
+    <div class="nav-links">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="privacy.html">Gizlilik Politikası</a>
+      <a href="terms.html">Kullanım Koşulları</a>
+    </div>
+    <a href="privacy-en.html" class="lang-btn">English</a>
   </div>
   <div class="wrapper">
     <div class="badge">Paraco AI</div>
