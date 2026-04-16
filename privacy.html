@@ -103,6 +103,7 @@
 
     <h2>6. Üçüncü Taraf Hizmetler</h2>
     <p>Uygulama hizmetlerinin sunulması amacıyla aşağıdaki üçüncü taraf sağlayıcılardan yararlanılmaktadır. Bu sağlayıcılar, yalnızca hizmetin gerektirdiği ölçüde veriye erişebilir ve kendi gizlilik politikalarına tabidir.</p>
+    <p>Aşağıda listelenen tüm üçüncü taraf sağlayıcılar — özellikle yapay zeka servis sağlayıcıları (Anthropic, OpenAI) — bu Gizlilik Politikasında tanımlanan korumayla eşit ya da daha yüksek düzeyde koruma sağlamakla sözleşmesel olarak yükümlüdür. Kılınç Labs, yalnızca bu güvenlik standartlarını karşılayan sağlayıcılarla çalışır.</p>
 
     <h3>6.1 Supabase</h3>
     <p>Altyapı ve veri depolama sağlayıcısı. Tüm kullanıcı verileri Supabase altyapısında tutulmaktadır.</p>
@@ -111,8 +112,16 @@
       <li>Gizlilik politikası: <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></li>
     </ul>
 
-    <h3>6.2 Anthropic</h3>
-    <p>Yapay zeka hizmet sağlayıcısı. Uygulama özellikleri kapsamında kullanıcıya ait finansal özet bilgiler (kimlik içermeyen) ve sohbet mesajları işlenmektedir.</p>
+    <h3>6.2 Anthropic (Claude Yapay Zeka)</h3>
+    <p>Kişiselleştirilmiş finansal tavsiye üretimi için kullanılan yapay zeka hizmet sağlayıcısıdır. Aşağıdaki veriler Anthropic'in Claude AI servisine iletilir:</p>
+    <ul>
+      <li>Girdiğiniz harcama metinleri (otomatik kategorilendirme için)</li>
+      <li>Koça yazdığınız mesajlar (kişiselleştirilmiş cevaplar için)</li>
+      <li>Aylık geliriniz, sabit giderleriniz ve bütçe limitleriniz</li>
+      <li>Hedef ve harcama geçmişi özeti</li>
+      <li>Adınız (koçun size hitap edebilmesi için)</li>
+    </ul>
+    <p>Anthropic'e e-posta adresiniz, ödeme bilgileriniz veya hesap kimlik bilgileriniz kesinlikle iletilmez. Anthropic, kendi gizlilik politikası uyarınca bu verileri model eğitiminde kullanmayacağını taahhüt eder.</p>
     <ul>
       <li>Sunucu konumu: Amerika Birleşik Devletleri</li>
       <li>Gizlilik politikası: <a href="https://anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
@@ -171,6 +180,14 @@
       <li>Aktivite seri kayıtları</li>
       <li>Tüm ses dosyaları (Supabase Storage)</li>
     </ul>
+
+    <h3>9.1 Yapay Zeka Onayını Geri Çekme</h3>
+    <p>Uygulamaya ilk girişte, verilerinizin Anthropic Claude yapay zeka servisiyle paylaşılması için açık onay vermeniz istenir. Bu onayı geri çekmek için aşağıdaki yollardan birini kullanabilirsiniz:</p>
+    <ul>
+      <li><strong>Hesabı silerek:</strong> Ayarlar → Hesabı Sil yoluyla hesabınızı kalıcı olarak silmek tüm verilerinizi kaldırır ve yapay zeka paylaşımını durdurur.</li>
+      <li><strong>E-posta ile:</strong> <a href="mailto:paraco.ai@proton.me">paraco.ai@proton.me</a> adresine yazarak yapay zeka özelliklerinin hesabınız için devre dışı bırakılmasını talep edebilirsiniz. Talep 30 gün içinde işlenir; bu durumda uygulamanın yapay zeka bağımlı özellikleri (otomatik kategorilendirme, koç sohbeti, haftalık özet, içgörüler) kullanılamaz.</li>
+    </ul>
+    <p>Onay geri çekildikten sonra daha önce Anthropic'e iletilmiş veriler, Anthropic'in kendi saklama politikası çerçevesinde silinir.</p>
     <h2>10. Bildirimler ve İzinler</h2>
     <h3>10.1 Push Bildirimleri</h3>
     <p>Bildirim izni verilmesi halinde aşağıdaki dört bağımsız bildirim türü aktif olur; her biri ayrı ayrı açılıp kapatılabilir:</p>

@@ -101,6 +101,7 @@
 
     <h2>6. Third-Party Service Providers</h2>
     <p>The following third-party providers are used to deliver the Application's services. These providers may access data only to the extent necessary for service delivery and are subject to their own privacy policies.</p>
+    <p>All third-party providers listed below — particularly AI service providers (Anthropic, OpenAI) — are contractually obligated to provide protection of user data equal to or greater than that set forth in this Privacy Policy. Kılınç Labs engages only with providers that meet these security standards.</p>
 
     <h3>6.1 Supabase</h3>
     <p>Infrastructure and data storage provider. All user data is stored within Supabase infrastructure.</p>
@@ -109,8 +110,16 @@
       <li>Privacy policy: <a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></li>
     </ul>
 
-    <h3>6.2 Anthropic</h3>
-    <p>AI service provider. Non-identifying financial summary data and chat messages are processed within the scope of Application features.</p>
+    <h3>6.2 Anthropic (Claude AI)</h3>
+    <p>AI service provider used to generate personalized financial advice. The following data is transmitted to Anthropic's Claude AI service:</p>
+    <ul>
+      <li>Your expense text entries (for automatic categorization)</li>
+      <li>Messages sent to the coach (for personalized replies)</li>
+      <li>Monthly income, fixed expenses, and budget limits</li>
+      <li>Goal and spending history summary</li>
+      <li>Your name (so the coach can address you)</li>
+    </ul>
+    <p>Your email address, payment information, and account credentials are never transmitted to Anthropic. Anthropic commits, per its privacy policy, not to use this data for model training.</p>
     <ul>
       <li>Server location: United States</li>
       <li>Privacy policy: <a href="https://anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></li>
@@ -169,6 +178,14 @@
       <li>Activity streak records</li>
       <li>All audio files (Supabase Storage)</li>
     </ul>
+
+    <h3>9.1 Revoking AI Consent</h3>
+    <p>On first launch of the Application, you are asked to provide explicit consent for sharing your data with Anthropic's Claude AI service. To revoke this consent, you can use either of the following:</p>
+    <ul>
+      <li><strong>Delete your account:</strong> Permanently deleting your account via Settings → Delete Account removes all your data and stops AI data sharing.</li>
+      <li><strong>Email request:</strong> Write to <a href="mailto:paraco.ai@proton.me">paraco.ai@proton.me</a> to request that AI features be disabled for your account. Requests are processed within 30 days. In that case AI-dependent features of the Application (automatic categorization, coach chat, weekly summary, insights) will no longer be available.</li>
+    </ul>
+    <p>Once consent is revoked, data previously transmitted to Anthropic is deleted per Anthropic's own retention policy.</p>
 
     <h2>10. Notifications and Permissions</h2>
     <h3>10.1 Push Notifications</h3>
